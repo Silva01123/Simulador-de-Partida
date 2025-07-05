@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Simulador de partidas do Mundial de Clubes 2025, feito por Vitória Sant'Ana, com HTML, CSS e JavaScript.">
+    <title>Simulador de Partida - Mundial de Clubes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador do Mundial de Clubes 2025</h1>
+    </header>
+
+    <main>
+        <!-- Seção para escolher os times -->
+        <section id="selecionar-times">
+            <h2>Escolha os Times</h2>
+
+            <label for="time1">Time 1:</label>
+                <select id="time1">
+                    <option value="Fluminense">Fluminense</option>
+                    <option value="PSG">PSG</option>
+                    <option value="Chelsea">Chelsea</option>
+                    <option value="Real Madrid">Real Madrid</option>
+                </select>
+
+            <label for="time2">Time 2:</label>
+                <select id="time2">
+                    <option value="Fluminense">Fluminense</option>
+                    <option value="PSG">PSG</option>
+                    <option value="Chelsea">Chelsea</option>
+                    <option value="Real Madrid">Real Madrid</option>
+                </select>
+
+            <button id="simular">Simular Partida</button>
+        </section>
+
+        <!-- Seção de resultado -->
+        <section id="resultado">
+            <h2>Resultado:</h2>
+
+            <!-- Imagem dos escudos -->
+            <div id="escudos">
+                <img id="escudo1" src="" alt="Escudo do Time 1">
+                <img id="escudo2" src="" alt="Escudo do Time 2">
+            </div>
+
+            <p id="placar">Aguardando simulação...</p>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
