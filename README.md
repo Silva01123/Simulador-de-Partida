@@ -30,17 +30,6 @@ Com a chegada do Mundial de Clubes, quis unir minha paixão por futebol com o ap
 
 ## 🔗 Acesse o projeto online
 
-👉 [Clique aqui para simular uma partida!](https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/)
+👉 [Clique aqui para simular uma partida!](https://silva01123.github.io/Simulador-de-Partida/)
 
 ---
-
-## 🛠️ Como executar localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
-
-# Acesse a pasta
-cd NOME-DO-REPOSITORIO
-
-# Abra o index.html no navegador
